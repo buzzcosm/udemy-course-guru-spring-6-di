@@ -7,7 +7,7 @@ import org.springframework.test.context.ActiveProfiles;
 
 @ActiveProfiles({"dev", "EN"})
 @SpringBootTest
-class Myi18NControllerTestEN {
+class Myi18NControllerENTest {
 
     @Autowired
     Myi18NController myi18NController;
